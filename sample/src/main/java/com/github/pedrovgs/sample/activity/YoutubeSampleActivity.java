@@ -119,6 +119,7 @@ public class YoutubeSampleActivity extends FragmentActivity {
       moviePosterFragment.setPosterTitle(VIDEO_POSTER_TITLE);
       draggablePanel.setBottomFragment(moviePosterFragment);
       draggablePanel.initializeView();
+      draggablePanel.setClickToMaximizeEnabled(true);
 
    }
 
